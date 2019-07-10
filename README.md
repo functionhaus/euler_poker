@@ -1,6 +1,7 @@
 # EulerPoker
 
-**TODO: Add description**
+**A pure-Elixir solution to problem 54 on ProjectEuler.net**
+
 
 ## Installation
 
