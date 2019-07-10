@@ -4,11 +4,11 @@ defmodule EulerPoker.Game do
   """
 
   alias EulerPoker.Player
-  alias EulerPoker.Hand
+  alias EulerPoker.Round
 
   @type t :: %__MODULE__{
     players: [Player],
-    hands: [Hand],
+    rounds: [Round],
     winner: Player,
     started_at: DateTime.t(),
     completed_at: DateTime.t()
@@ -16,7 +16,7 @@ defmodule EulerPoker.Game do
 
   defstruct [
     :players,
-    :hands,
+    :rounds,
     :winner,
     :started_at,
     :completed_at
@@ -24,5 +24,7 @@ defmodule EulerPoker.Game do
 
   def play(hands) do
   end
+
+  defp
 end
 
