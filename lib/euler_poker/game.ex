@@ -24,7 +24,5 @@ defmodule EulerPoker.Game do
 
   def play(hands) do
   end
-
-  defp
 end
 
