@@ -6,8 +6,8 @@ defmodule EulerPoker.Card do
   alias EulerPoker.Card
 
   @type t :: %__MODULE__{
-    rank: EulerPoker.ranks,
-    suit: EulerPoker.suits
+    rank: String.t(),
+    suit: String.t()
   }
 
   defstruct [
